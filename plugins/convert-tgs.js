@@ -45,11 +45,11 @@ cmd({
 
     let type = stickers.data.result.is_animated ? 'animated sticker' : 'not animated sticker';
 
-    let message = `*🧩sᴜʙᴢᴇʀᴏ ᴛᴇʟᴇɢʀᴀᴍ sᴛɪᴄᴋᴇʀs🧩*\n\n` +
+    let message = `*🧩Hᴜssᴀɪɴ ᴛᴇʟᴇɢʀᴀᴍ sᴛɪᴄᴋᴇʀs🧩*\n\n` +
                   `*Producer:* ${stickers.data.result.name}\n` +
                   `*Type:* ${type}\n` +
                   `*Length:* ${stickers.data.result.stickers.length}\n\n` +
-                  `> sᴜʙᴢᴇʀᴏ sᴇɴᴅɪɴɢ sᴛɪᴄᴋᴇʀs...`;
+                  `> Hᴜssᴀɪɴ sᴇɴᴅɪɴɢ sᴛɪᴄᴋᴇʀs...`;
 
    // await reply(message);
 await conn.sendMessage(
@@ -62,8 +62,8 @@ await conn.sendMessage(
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: '❄️『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』❄️ ',
+                        newsletterJid: '',
+                        newsletterName: '❄️『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』❄️ ',
                         serverMessageId: 143
                     }
                 }
@@ -84,8 +84,8 @@ await conn.sendMessage(
 
       // Create a WhatsApp sticker
       const sticker = new Sticker(buffer.data, {
-        pack: '❄️ SUBZERO-MD ❄️',
-        author: 'ɱɾ ƒɾαɳҡ σƒc',
+        pack: '❄️ 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 ❄️',
+        author: 'mr hussain ofc',
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: '12345',
