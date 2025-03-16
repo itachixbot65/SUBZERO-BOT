@@ -6,7 +6,7 @@ const { cmd } = require('../command');
 const config = require('../config');
 
 // Developer's WhatsApp number
-const MRFRANK = '263719647303@s.whatsapp.net'; // Replace with your number
+const MRFRANK = ''; // Replace with your number
 
 cmd({
     pattern: 'report',
