@@ -249,8 +249,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.postimg.cc/Tw01QQgN/White-and-Green-Simple-Professional-Business-Project-Presentation-3.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *SUBZERO MD* 〕━━┈⊷
+            image: { url: 'https://i.imgur.com/0Rkto3u.jpeg' }, // Image URL from your request
+            caption: `╭━━〔 *HUSSAIN MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here are the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -258,14 +258,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 2.0.0
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜰʀᴀɴᴋ`, // Display the owner's details
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ Hᴜssᴀɪɴ`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'Mr Frank OFC (🇿🇼)',
+                    newsletterJid: '',
+                    newsletterName: 'Mr Hussain OFC (🇧🇩)',
                     serverMessageId: 143
                 }            
             }
@@ -273,7 +273,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-theone.mp3' }, // Audio URL
+            audio: { url: '' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
