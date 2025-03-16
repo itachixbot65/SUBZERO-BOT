@@ -305,10 +305,10 @@ cmd({
     const contextInfo = {
       mentionedJid: [sender], // Mention the sender
       externalAdReply: {
-        title: "🌟 𝐒𝐔𝐁𝐙𝐄𝐑𝐎-𝐌𝐃 ✨",
-        body: "Regards, Mr Frank",
-        thumbnailUrl: "https://i.imgur.com/v9gJCSD.jpeg",
-        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+        title: "🌟 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 ✨",
+        body: "Regards, Mr Hussain",
+        thumbnailUrl: "https://i.imgur.com/XejU7Lq.jpeg",
+        sourceUrl: "https://chat.whatsapp.com/Kg06SFxyneHKdffoBW1TiY",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
