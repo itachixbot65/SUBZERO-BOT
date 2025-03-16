@@ -223,7 +223,7 @@ const { sleep } = require('../lib/functions');
 
 cmd({
     pattern: "restart",
-    desc: "Restart the SubZero Md",
+    desc: "Restart the  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎",
     category: "owner",
     filename: __filename
 },
@@ -238,7 +238,7 @@ async (conn, mek, m, {
         }
 
         const { exec } = require("child_process");
-        reply("> Subzero Bot Restarting...");
+        reply("> 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎ Restarting...");
         await sleep(1500);
         exec("pm2 restart all");
     } catch (e) {
