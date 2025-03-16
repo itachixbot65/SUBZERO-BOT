@@ -241,7 +241,7 @@ const wordInfo = `
 📝 *Example*: ${example}
 🔗 *Synonyms*: ${synonyms}
 
-> *© Powered By SubZero*`;
+> *© Powered By Hussain*`;
 
                                  return reply(wordInfo);
                              } catch (e) {
