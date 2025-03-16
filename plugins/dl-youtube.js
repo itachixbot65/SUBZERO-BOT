@@ -39,7 +39,7 @@ function _0x4819() {
         'nt*\x20song\x0a',
         '1131235AuDGNJ',
         '➤\x20*ᴠɪᴇᴡs:*',
-        '𝐒𝐔𝐁𝐙𝐄𝐑𝐎\x20𝐌𝐃',
+        '𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡\x20𝐌𝐃',
         'k\x20or\x20title',
         'VeeXe',
         '\x20song\x0a\x0a',
