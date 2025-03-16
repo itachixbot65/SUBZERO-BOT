@@ -37,7 +37,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
     try {
         // Liste des options NSFW
         const nsfwList = `
-   *❦ \`ＳＵＢＺＥＲＯ ＳＥＸＹ ＨＵＢ.🎀🍭\`*
+   *❦ \`H U S S A I N ＳＥＸＹ ＨＵＢ.🎀🍭\`*
 
 1️⃣ *EJACULATION💦*
 2️⃣ *PENIS🍆*
@@ -92,7 +92,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image avec le caption
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: `Here your ${command} image 🔞🍆🍑.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋🍑🔞.`,
+                caption: `Here your ${command} image 🔞🍆🍑.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋🍑🔞.`,
             }, { quoted: mek });
         } else {
             await reply('❌ No image found for this category.');
@@ -124,7 +124,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image avec le caption
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: `Here your ${command} image 🔞🍆🍑.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋🍑🔞.`,
+                caption: `Here your ${command} image 🔞🍆🍑.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎🍑🔞.`,
             }, { quoted: mek });
         } else {
             await reply('❌ No image found for this category.');
@@ -156,7 +156,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image avec le caption
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: `Here your ${command} image 🔞🍆🍑.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋🍑🔞.`,
+                caption: `Here your ${command} image 🔞🍆🍑.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋🍑🔞.`,
             }, { quoted: mek });
         } else {
             await reply('❌ No image found for this category.');
@@ -190,7 +190,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your nude NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋🔥🔞.'
+                caption: 'Here is your nude NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋🔥🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
@@ -224,7 +224,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your sex NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋🔥🔞.'
+                caption: 'Here is your sex NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋🔥🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
@@ -258,7 +258,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your cute NSFW image 🔞💖.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋💖🔞.'
+                caption: 'Here is your cute NSFW image 🔞💖.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋💖🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
@@ -292,7 +292,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your orgasm NSFW image 🔞💥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋💥🔞.'
+                caption: 'Here is your orgasm NSFW image 🔞💥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋💥🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
@@ -326,7 +326,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your anal NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋🔥🔞.'
+                caption: 'Here is your anal NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋🔥🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
@@ -360,7 +360,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your suspension NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋🔥🔞.'
+                caption: 'Here is your suspension NSFW image 🔞🔥.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋🔥🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
@@ -394,7 +394,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your kiss NSFW image 🔞💋.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Nᴀsᴛʏ SᴜʙZᴇʀᴏ😋💋🔞.'
+                caption: 'Here is your kiss NSFW image 🔞💋.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ  🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎😋💋🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
