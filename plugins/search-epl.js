@@ -40,15 +40,15 @@ cmd({
         
     // Send the standings with an image
     await conn.sendMessage(from, {
-      image: { url: `https://i.postimg.cc/nVKJnFnn/IMG-20250305-WA0005.jpg` }, // Image URL
+      image: { url: `https://i.imgur.com/5lWwg3R.jpeg` }, // Image URL
       caption: message,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterJid: '',
+          newsletterName: '『 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎ 』',
           serverMessageId: 143
         }
       }
@@ -99,8 +99,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterJid: '',
+          newsletterName: '『  』',
           serverMessageId: 143
         }
       }
@@ -151,8 +151,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterJid: '',
+          newsletterName: '『  』',
           serverMessageId: 143
         }
       }
