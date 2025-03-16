@@ -45,7 +45,7 @@ cmd({
                        `${description}\n\n` +
                        `🗓️ Published: ${newsDate}\n` +
                        `🔗 Read more: ${url}\n\n` +
-                       `_Powered by Subzero_`;
+                       `_Powered by Hussain`;
 
         await conn.sendMessage(from, {
           image: imageBuffer,
