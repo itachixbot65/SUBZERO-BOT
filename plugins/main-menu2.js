@@ -228,7 +228,7 @@ const axios = require('axios')
 
 cmd({
     pattern: "allmenu",
-    alias: "menu2",
+    alias: "memubot",
     desc: "menu the bot",
     category: "menu2",
     react: "🛠️",
@@ -241,7 +241,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Owner : *${config.OWNER_NAME}*
 ┃★│ Baileys : *Multi Device*
 ┃★│ Type : *NodeJs*
-┃★│ Platform : *Heroku*
+┃★│ Platform : *None public*
 ┃★│ Mode : *[${config.MODE}]*
 ┃★│ Prefix : *[${config.PREFIX}]*
 ┃★│ Version : *1.0.3 Bᴇᴛᴀ*
@@ -460,15 +460,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/yNf7rQFw/prn.jpg` },
+                image: { url: `https://i.imgur.com/kHEagdb.jpeg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: 'ѕυϐzєяο м∂ ω.α ϐοτ',
+                        newsletterJid: '',
+                        newsletterName: '𝐇𝐔𝐒𝐒𝐀𝐈𝐍 ω.α ϐοτ',
                         serverMessageId: 143
                     }
                 }
@@ -478,7 +478,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
+            audio: { url: '' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
