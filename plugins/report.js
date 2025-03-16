@@ -48,22 +48,22 @@ cmd({
         }
 
         // Format the report
-        const formattedReport = `🚨 *New Subzero Report* 🚨\n\n` +
+        const formattedReport = `🚨 *New Hussain Report* 🚨\n\n` +
                                `*👤 From:* ${sender.split('@')[0]}\n` +
                                `*👥 Group:* ${isGroup ? 'Yes' : 'No'}\n` +
                                `*📩 Message:* ${reportMessage}`;
 
         // Send the report to the developer with an image
         await conn.sendMessage(MRFRANK, {
-            image: { url: 'https://i.postimg.cc/k4Kd698F/IMG-20250305-WA0000.jpg' }, // Image URL
+            image: { url: 'https://i.imgur.com/XejU7Lq.jpeg' }, // Image URL
             caption: formattedReport,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+                    newsletterJid: '',
+                    newsletterName: '『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』',
                     serverMessageId: 143
                 }
             }
@@ -71,15 +71,15 @@ cmd({
 
         // Notify the user with an image
         await conn.sendMessage(from, {
-            image: { url: 'https://i.postimg.cc/k4Kd698F/IMG-20250305-WA0000.jpg' }, // Image URL
+            image: { url: 'https://i.imgur.com/0Rkto3u.jpeg' }, // Image URL
             caption: 'Your report has been sent to the developer. Thank you!✅',
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+                    newsletterJid: '',
+                    newsletterName: '『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』',
                     serverMessageId: 143
                 }
             }
