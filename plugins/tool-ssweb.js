@@ -243,14 +243,14 @@ cmd({
     // Send the screenshot as an image message
     await conn.sendMessage(from, {
       image: { url: screenshotUrl },
-      caption: `  *🌐 Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ 🌐*\n\n🔗 *Website URL:* \n${url}`,
+      caption: `  *🌐 Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Hᴜssᴀɪɴ 🌐*\n\n🔗 *Website URL:* \n${url}`,
       contextInfo: {
         mentionedJid: [msg.sender], // Fix: Use `msg.sender` instead of `m.sender`
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: "𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃",
+          newsletterJid: '',
+          newsletterName: "𝐇𝐔𝐒𝐒𝐀𝐈𝐍 𝐌𝐃",
           serverMessageId: 143,
         },
       },
