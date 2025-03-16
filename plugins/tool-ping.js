@@ -308,7 +308,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *sᴜʙᴢᴇʀᴏ ɪᴄᴇ ᴍᴇʟᴛᴇᴅ ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+        const text = `> *Hᴜssᴀɪɴ ɪᴄᴇ ᴍᴇʟᴛᴇᴅ ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -317,8 +317,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: "𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃",
+                    newsletterJid: '',
+                    newsletterName: "𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡",
                     serverMessageId: 143
                 }
             }
@@ -345,7 +345,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '\`SUBZERO PINGING 🚀\`' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*SUBZERO PONGED ! : ${ping}ms ⚡*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*HUSSAIN PONGED ! : ${ping}ms ⚡*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
