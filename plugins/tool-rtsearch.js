@@ -13,7 +13,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `*🎺SUBZERO RINGTONES🎺*
+        const status = `*🎺HUSSAIN RINGTONES🎺*
 
 ────────────
 1. Querky
@@ -51,15 +51,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/Y8Bv9P0/mrfrankofc.jpg` },  // Image URL
+            image: { url: `https://i.imgur.com/0Rkto3u.jpeg` },  // Image URL
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐑𝐈𝐍𝐆𝐓𝐎𝐍𝐄𝐒',
+                    newsletterJid: '',
+                    newsletterName: '𝐇𝐔𝐒𝐒𝐀𝐈𝐍 𝐑𝐈𝐍𝐆𝐓𝐎𝐍𝐄𝐒',
                     serverMessageId: 143
                 }
             }
