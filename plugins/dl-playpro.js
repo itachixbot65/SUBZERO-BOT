@@ -65,7 +65,7 @@ cmd({
     };
 
     // Inform the user that the song is being downloaded
-    await reply(`🎵 *Subzero Downloading ${songDetails.title}...*`);
+    await reply(`🎵 *Hussain Downloading ${songDetails.title}...*`);
 
     // Download the song
     const songResponse = await axios.get(downloadUrl, { responseType: 'arraybuffer' });
@@ -96,14 +96,14 @@ cmd({
       document: compressedBuffer,
       mimetype: 'audio/mpeg',
       fileName: `${songDetails.title}.mp3`,
-      caption: `> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ`,
+      caption: `> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Hᴜssᴀɪɴ`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterJid: '',
+          newsletterName: '『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡』',
           serverMessageId: 143
         }
       }
