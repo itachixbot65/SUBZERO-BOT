@@ -3,8 +3,8 @@ const axios = require('axios'); // For making HTTP requests to GitHub API
 const fs = require('fs'); // For saving downloaded files
 
 // GitHub repository details
-const REPO_OWNER = 'mrfrank-ofc';
-const REPO_NAME = 'SUBZERO-BOT';
+const REPO_OWNER = '𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡-ofc';
+const REPO_NAME = 'Your Baby';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 
 // GitHub API base URL
@@ -38,7 +38,7 @@ async (conn, mek, m, { from, reply }) => {
         pluginListCache = plugins;
 
         // Construct a list of plugins
-        let pluginList = "📂 *SUBZERO BOT Plugins:*\n\n";
+        let pluginList = "📂 *HUSSAIN BOT Plugins:*\n\n";
         plugins.forEach((plugin, index) => {
             pluginList += `${index + 1}. ${plugin.name}\n> `; // Add plugin name to the list
         });
@@ -72,7 +72,7 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
         // If the user is replying to a message, check if it's a number
         if (m.quoted && m.quoted.key.fromMe) {
             const quotedText = m.quoted.text;
-            if (/📂 \*SUBZERO BOT Plugins:\*/i.test(quotedText)) {
+            if (/📂 \*HUSSAIN BOT Plugins:\*/i.test(quotedText)) {
                 // Extract the number from the reply
                 const fileNumber = parseInt(pluginName);
                 if (!isNaN(fileNumber) && fileNumber > 0 && fileNumber <= pluginListCache.length) {
@@ -99,15 +99,15 @@ async (conn, mek, m, { from, reply, args, senderNumber }) => {
 
         // Status message with image and caption
         const statusMessage = {
-            image: { url: `https://i.postimg.cc/yNf7rQFw/prn.jpg` }, // Replace with your image URL
+            image: { url: `https://i.imgur.com/5lWwg3R.jpeg` }, // Replace with your image URL
             caption: `*Successfully downloaded ${pluginName} ✅*`,
             contextInfo: {
                 mentionedJid: [senderNumber],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '❄️『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』❄️ ',
+                    newsletterJid: '',
+                    newsletterName: '❄️『 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎ 』❄️ ',
                     serverMessageId: 143
                 }
             }
