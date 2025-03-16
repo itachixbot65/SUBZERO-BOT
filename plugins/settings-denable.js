@@ -622,7 +622,7 @@ cmd({
   try {
     // `from` is the group chat ID
     await conn.groupLeave(from);
-    reply("Subzero Successfully left the group🙂.");
+    reply("Hussain Successfully left the group🙂.");
   } catch (error) {
     console.error(error);
     reply("Failed to leave the group.🤦🏽‍♂️");
@@ -770,7 +770,7 @@ cmd({
 
     const cmdList = `
     ----------------------------------------
-    \`\`\`SUBZERO SETTINGS V2\`\`\`
+    \`\`\`HUSSAIN SETTINGS V2\`\`\`
  -----------------------------------------
  
 🔧 *1. Mode*
