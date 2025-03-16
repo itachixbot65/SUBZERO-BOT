@@ -42,7 +42,7 @@ cmd({
         const formattedAmount = new Intl.NumberFormat().format(amount);
         const formattedResult = new Intl.NumberFormat().format(convertedAmount);
 
-        const message = `🌐 *SUBZERO CURRENCY CONVERSION 💵*\n\n` +
+        const message = `🌐 *HUSSAIN CURRENCY CONVERSION 💵*\n\n` +
             `*💡 From:* ${formattedAmount} ${fromCurrency}\n` +
             `*🏷️ To:* ${formattedResult} ${toCurrency}\n` +
             `*🚦 Rate:* 1 ${fromCurrency} = ${rates[toCurrency]} ${toCurrency}\n\n` +
