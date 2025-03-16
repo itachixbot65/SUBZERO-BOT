@@ -26,7 +26,7 @@ cmd({
                `*📛 Title:* ${title}\n` +
                `*📅 Date:* ${date}\n\n` +
                `*📝 Explanation:*\n${explanation}\n\n` +
-               `_Powered by Subzero_`
+               `_Powered by Hussain_`
     }, { quoted: mek });
 
   } catch (error) {
@@ -65,7 +65,7 @@ cmd({
                `*👥 Followers:* ${followers}\n` +
                `*📄 Description:* ${description}\n\n` +
                `*🔗 Link:* ${link}\n\n` +
-               `_Powered by Subzero_`
+               `_Powered by Hussain_`
     }, { quoted: mek });
 
   } catch (error) {
@@ -105,7 +105,7 @@ cmd({
       `*⏰ Timezone:* ${timezone}\n` +
       `*📱 Mobile:* ${mobile ? 'Yes' : 'No'}\n` +
       `*🛡️ Proxy:* ${proxy ? 'Yes' : 'No'}\n\n` +
-      `_Powered by Subzero_`
+      `_Powered by Hussain_`
     );
 
   } catch (error) {
