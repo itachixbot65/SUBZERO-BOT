@@ -47,9 +47,9 @@ cmd({
 
     let message = '';
     if (currentVersion === latestVersion) {
-      message = `Your Subzero bot is up-to-date! 😊\n Current version is: ${currentVersion}`;
+      message = `Your Baby bot is up-to-date! 😊\n Current version is: ${currentVersion}`;
     } else {
-      message = `Your Subzero bot is outdated 😵!\n\n  Current version: ${currentVersion} \n Latest version: ${latestVersion}`;
+      message = `Your Baby bot is outdated 😵!\n\n  Current version: ${currentVersion} \n Latest version: ${latestVersion}`;
     }
 
    // await reply(message);
@@ -61,22 +61,22 @@ cmd({
 //});
        // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.postimg.cc/zv76KffW/IMG-20250115-WA0020.jpg` },  // Image URL
+            image: { url: `https://i.imgur.com/5lWwg3R.jpeg` },  // Image URL
             caption: message,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+                    newsletterJid: '',
+                    newsletterName: '『 𝐇𝐔𝐒𝐒𝐀𝐈𝐍 𝐌𝐃 』',
                     serverMessageId: 143
                 }
             }
         }, { quoted: mek });
 
     } catch (e) {
-        console.error("Error in Subzero checking Version:", e);
+        console.error("Error in Baby checking Version:", e);
         reply(`An error Occured Fetching Version 😕`);
     }
 });
