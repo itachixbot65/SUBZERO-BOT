@@ -56,14 +56,14 @@ cmd({
         `💬 *Comments*: ${metrics.comment_count}\n` +
         `🔁 *Shares*: ${metrics.share_count}\n` +
         `📥 *Downloads*: ${metrics.download_count}\n\n` +
-        `> © Powered by Mr Frank`,
+        `> © Powered by Mr Hussain`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterJid: '',
+          newsletterName: '『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』',
           serverMessageId: 143
         }
       }
