@@ -16,7 +16,7 @@ cmd({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        if (!q) return reply("Please provide the text you want to convert to PDF. *Eg* `.topdf` *Mr Frank is the best 🤗*");
+        if (!q) return reply("Please provide the text you want to convert to PDF. *Eg* `.topdf` *Mr Hussain is the best 🤗*");
 
         // Create a new PDF document
         const doc = new PDFDocument();
@@ -33,7 +33,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
 *📄 PDF created successully!*
 
-> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ 🚀`
+> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Hᴜssᴀɪɴ 🚀`
             }, { quoted: mek });
         });
 
