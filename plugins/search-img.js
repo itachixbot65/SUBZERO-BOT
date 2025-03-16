@@ -76,7 +76,7 @@ cmd({
         for (let i = 0; i < maxImages; i++) {
             await conn.sendMessage(m.chat, {
                 image: { url: results[i] },
-                caption: `📷 *Image Search*\n\n🔎 *Query:* "${text}"\n📄 *Result:* ${i + 1}/${maxImages}\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ ᴏғᴄ*`,
+                caption: `📷 *Image Search*\n\n🔎 *Query:* "${text}"\n📄 *Result:* ${i + 1}/${maxImages}\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 *`,
             }, { quoted: m });
         }
 
