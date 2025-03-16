@@ -55,14 +55,14 @@ cmd({
             `❤️ *Likes*: ${like}\n` +
             `💬 *Comments*: ${comment}\n` +
             `📝 *Caption*: ${caption || "No caption"}\n\n` +
-            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ`,
+            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ Hᴜssᴀɪɴ`,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363304325601080@newsletter',
-              newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+              newsletterJid: '',
+              newsletterName: '『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』',
               serverMessageId: 143
             }
           }
@@ -76,14 +76,14 @@ cmd({
             `❤️ *Likes*: ${like}\n` +
             `💬 *Comments*: ${comment}\n` +
             `📝 *Caption*: ${caption || "No caption"}\n\n` +
-            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ`,
+            `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ Hᴜssᴀɪɴ`,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363304325601080@newsletter',
-              newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+              newsletterJid: '',
+              newsletterName: '『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』',
               serverMessageId: 143
             }
           }
@@ -157,14 +157,14 @@ cmd({
       video: videoBuffer,
       caption: `📥 *Instagram Video*\n\n` +
         `🔖 *Title*: ${title || "No title"}\n\n` +
-        `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ`,
+        `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ Hᴜssᴀɪɴ`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterJid: '',
+          newsletterName: '『  𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』',
           serverMessageId: 143
         }
       }
