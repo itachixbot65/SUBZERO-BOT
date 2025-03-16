@@ -244,6 +244,6 @@ const key = {
         await conn.sendMessage(m.chat, { delete: key })
 } catch(e) {
 console.log(e);
-reply('SubZero Delete Successful..👨‍💻✅')
+reply('Hussain Delete Successful..👨‍💻✅')
 } 
 })
