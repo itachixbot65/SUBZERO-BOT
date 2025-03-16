@@ -27,7 +27,7 @@ cmd({
 ${text}
 
 ─────────────────
-> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ
+> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Hᴜssᴀɪɴ
     `;
 
     // Send the formatted message
