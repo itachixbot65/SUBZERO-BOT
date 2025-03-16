@@ -249,7 +249,7 @@ cmd({
 }) => {
   try {
     if (!_0x2f9b7f) {
-      return _0x262952("Sirf Bot Owner Use Kr Skta Hai Ya CMD.");
+      return _0x262952("Only bot owner use this CMD.");
     }
     const _0x23d835 = path.join(__dirname, "../plugins");
     const _0x3435ae = fs.readdirSync(_0x23d835);
