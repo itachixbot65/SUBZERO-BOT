@@ -97,7 +97,7 @@ cmd({
     }
 
     // Format the notices into a message
-    let noticeMessage = "⟣┄〔 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 〕┅⟢\n\n";
+    let noticeMessage = "⟣┄〔 𝐇𝐔𝐒𝐒𝐀𝐈𝐍 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 〕┅⟢\n\n";
     notices.forEach((notice, index) => {
       noticeMessage += `${index + 1}. ${notice.message}\n`;
     });
@@ -107,15 +107,15 @@ cmd({
 
     // Send the noticeboard with an image (status message)
     await conn.sendMessage(from, {
-      image: { url: `https://i.postimg.cc/QMR3dVBd/IMG-20250305-WA0003.jpg` }, // Replace with your image URL
+      image: { url: `https://i.imgur.com/kHEagdb.jpeg` }, // Replace with your image URL
       caption: noticeMessage,
       contextInfo: {
         mentionedJid: [msg.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterJid: '',
+          newsletterName: '『 𝐇𝐔𝐒𝐒𝐀𝐈𝐍 𝐌𝐃 』',
           serverMessageId: 143
         }
       }
