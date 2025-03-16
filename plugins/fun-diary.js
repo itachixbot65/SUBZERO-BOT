@@ -348,7 +348,7 @@ cmd({
         }
 
         // Format the notes as a numbered list
-        let diaryList = "📕 `SUBZERO USER DIARY`  📕\n\n⟣━━━━━━━━━━━━━━━━⟢\n\n";
+        let diaryList = "📕 `HUSSAIN USER DIARY`  📕\n\n⟣━━━━━━━━━━━━━━━━⟢\n\n";
         notes.forEach((note, index) => {
             diaryList += `*🔖 ${index + 1}. ${note.note}*\n` +
                          `📆 _Time: ${new Date(note.timestamp).toLocaleString('en-US', { timeZone: 'Africa/Harare' })}_\n\n`; // Use Harare time
@@ -364,8 +364,8 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '❄️ 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃❄️',
+                    newsletterJid: '',
+                    newsletterName: '❄️ 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡❄️',
                     serverMessageId: 143
                 }
             }
