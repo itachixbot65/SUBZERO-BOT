@@ -273,7 +273,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/mrfrank-ofc/SUBZERO-BOT';
+    const githubRepoURL = 'Sorry None public this fork🫶';
 
     try {
         // Extract username and repo name from the URL
@@ -289,15 +289,15 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*Hello There SUBZERO W.A BOT User! 😄👋* 
+        const formattedInfo = `*Hello There Hussain X  W.A BOT User! 😄👋* 
 
-> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, SubZero WhatsApp Bot. ❄️
+> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, Hussain WhatsApp Bot. ❄️
 
-*Thanks for using SubZero MD🌹🫶* 
+*Thanks for using Hussain X Bot🌹🫶* 
 
 > Don't forget to star & fork the repo🌟🍴
 
-https://github.com/mrfrank-ofc/SUBZERO-BOT
+Sorry guyes none public this fork😞🫶🇧🇩
 ──────────────────
 ${readMore}
 \`BOT NAME:\`❄️
@@ -319,15 +319,15 @@ ${readMore}
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://i.postimg.cc/MpLk9Xmm/IMG-20250305-WA0010.jpg` },
+            image: { url: `https://i.imgur.com/0Rkto3u.jpeg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'ѕυϐzєяο м∂ ϐιτ',
+                    newsletterJid: '',
+                    newsletterName: 'ᕼᑌՏՏᗩIᑎ м∂ ϐιτ',
                     serverMessageId: 143
                 }
             }
@@ -335,7 +335,7 @@ ${readMore}
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
+            audio: { url: '' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -343,8 +343,8 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'ѕυϐzєяο м∂ ϐοτ',
+                    newsletterJid: '',
+                    newsletterName: '𝐇𝐔𝐒𝐒𝐀𝐈𝐍 м∂ ϐοτ',
                     serverMessageId: 143
                 }
             }
