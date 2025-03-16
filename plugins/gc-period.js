@@ -282,7 +282,7 @@ cmd({
     _0x515443("Open time " + _0x29755d + " starting from now");
     setTimeout(() => {
       _0x34b3eb.groupSettingUpdate(_0x1979f2, "not_announcement");
-      _0x515443("> *🔔 Group Chat Automatically Opened By SubZero Bot*");
+      _0x515443("> *🔔 Group Chat Automatically Opened By 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎*");
     }, _0x57d309);
     await _0x34b3eb.sendMessage(_0x1979f2, {
       'react': {
@@ -355,7 +355,7 @@ cmd({
     _0x5c514e("Close time " + _0x490959 + " starting from now");
     setTimeout(() => {
       _0x33bbc7.groupSettingUpdate(_0x152d4d, "announcement");
-      _0x5c514e("> *🔕 Group Chat automatically closed by SubZero*");
+      _0x5c514e("> *🔕 Group Chat automatically closed by 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎*");
     }, _0x4b2fe4);
     await _0x33bbc7.sendMessage(_0x152d4d, {
       'react': {
@@ -471,7 +471,7 @@ cmd({
     }
     await _0x188ee4.groupSettingUpdate(_0x5a0744.chat, "announcement");
     const _0x23264b = await _0x188ee4.sendMessage(_0x5a0744.chat, {
-      'text': "*GROUP CHAT MUTED BY SUBZERO-MD* 🔒"
+      'text': "*GROUP CHAT MUTED BY 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎* 🔒"
     }, {
       'quoted': _0x2926d7
     });
@@ -483,7 +483,7 @@ cmd({
     });
   } catch (_0x3ea7c2) {
     console.log(_0x3ea7c2);
-    _0x4efac7("*Muja Admin Kar Pher Use Kar Commands ❗👻*");
+    _0x4efac7("*Add me admin and use this command❗👻*");
   }
 });
 cmd({
@@ -531,7 +531,7 @@ cmd({
     }
     await _0x298fe1.groupSettingUpdate(_0x2602ac.chat, "not_announcement");
     const _0x74b371 = await _0x298fe1.sendMessage(_0x2602ac.chat, {
-      'text': "*GROUP CHAT UNMUTED BY SUBZERO-MD* 🔒"
+      'text': "*GROUP CHAT UNMUTED BY 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎* 🔒"
     }, {
       'quoted': _0x116d41
     });
@@ -543,7 +543,7 @@ cmd({
     });
   } catch (_0x38466f) {
     console.log(_0x38466f);
-    _0x33fff7("*Muja Admin Bana Phr Commands Kar❗👻*");
+    _0x33fff7("*Add me admin and use this command❗👻*");
   }
 });
 cmd({
