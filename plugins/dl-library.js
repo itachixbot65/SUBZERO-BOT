@@ -9,10 +9,10 @@ const streamPipeline = promisify(require('stream').pipeline);
 
 cmd({
     pattern: "library", // Command trigger
-    alias: ["lib", "subzerolibrary"], // Aliases
+    alias: ["lib", "hussainlibrary"], // Aliases
     use: '.library', // Example usage
     react: "📚", // Emoji reaction
-    desc: "Access the SubZero Library.", // Description
+    desc: "Access the Hussain Library.", // Description
     category: "utility", // Command category
     filename: __filename // Current file name
 },
@@ -20,7 +20,7 @@ cmd({
 async (conn, mek, m, { from, reply, senderNumber }) => {
     try {
         // Welcome message with image
-        const message = "Welcome to SubZero Library😃📚!\n\nTo proceed, type `.showlibrary`.\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ";
+        const message = "Welcome to Hussain Library😃📚!\n\nTo proceed, type `.showlibrary`.\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ Hᴜssᴀɪɴ";
 
         await conn.sendMessage(from, {
             image: { url: `https://i.postimg.cc/qMjHC1tY/IMG-20250305-WA0007.jpg` }, // Image URL
@@ -30,8 +30,8 @@ async (conn, mek, m, { from, reply, senderNumber }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+                    newsletterJid: '',
+                    newsletterName: '『 𝗠𝗥_𝗛𝗨𝗦𝗦𝗔𝗜𝗡 』',
                     serverMessageId: 143
                 }
             }
@@ -48,7 +48,7 @@ cmd({
     alias: ["showlib", "listbooks"], // Aliases
     use: '.showlibrary', // Example usage
     react: "📂", // Emoji reaction
-    desc: "List all files in the SubZero Library.", // Description
+    desc: "List all files in the Hussain Library.", // Description
     category: "utility", // Command category
     filename: __filename // Current file name
 },
@@ -69,11 +69,11 @@ async (conn, mek, m, { from, reply, senderNumber }) => {
         const files = storage.root.children;
 
         if (files.length === 0) {
-            return reply("No files found in the SubZero Library."); // No files found
+            return reply("No files found in the Hussain Library."); // No files found
         }
 
         // Construct a numbered list of files
-        let fileList = " 📑 `SUBZERO LIBRARY` \n\n⟣━━━━━━━━━━━━⟢\n*📂 Available Books:*\n";
+        let fileList = " 📑 `HUSSAIN LIBRARY` \n\n⟣━━━━━━━━━━━━⟢\n*📂 Available Books:*\n";
         fileList += `*🏮 Total Books: ${files.length}*\n⟣━━━━━━━━━━━━⟢\n\n`; // Add total files count here
         files.forEach((file, index) => {
             fileList += `${index + 1}. ${file.name}\n`; // Add file name to the list
@@ -86,7 +86,7 @@ async (conn, mek, m, { from, reply, senderNumber }) => {
         await reply(fileList);
     } catch (error) {
         console.error("Error:", error); // Log the error
-        reply("*Error: Unable to fetch files from the SubZero Library. Please try again later.*");
+        reply("*Error: Unable to fetch files from the Hussain Library. Please try again later.*");
     }
 });
 
@@ -95,7 +95,7 @@ cmd({
     alias: ["dl", "getbook"], // Aliases
     use: '.download <number>', // Example usage
     react: "📥", // Emoji reaction
-    desc: "Download a book from the SubZero Library.", // Description
+    desc: "Download a book from the Hussain Library.", // Description
     category: "utility", // Command category
     filename: __filename // Current file name
 },
