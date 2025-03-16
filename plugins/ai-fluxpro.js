@@ -86,7 +86,7 @@ cmd({
       return reply(`*Usage:* ${command} <prompt>\n\n*Example:* ${command} cat`);
     }
 
-    await reply('> *Subzero Processing Image...*');
+    await reply('> *Hussain Processing Image...*');
 
     const apiUrl = `https://apis.davidcyriltech.my.id/flux?prompt=${encodeURIComponent(text)}`;
 
