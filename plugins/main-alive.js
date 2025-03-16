@@ -3,7 +3,7 @@ const { cmd } = require("../command");
 const moment = require("moment-timezone");
 let botStartTime = Date.now();
 
-const ALIVE_IMG = "https://i.postimg.cc/3RgPr15t/IMG-20250305-WA0008.jpg";
+const ALIVE_IMG = "https://i.imgur.com/5lWwg3R.jpeg";
 
 cmd({
   pattern: "alive",
@@ -14,14 +14,14 @@ cmd({
 }, async (conn, mek, m, { reply, from }) => {
   try {
     const pushname = m.pushName || "User";
-    const harareTime = moment().tz("Africa/Harare").format("HH:mm:ss");
-    const harareDate = moment().tz("Africa/Harare").format("dddd, MMMM Do YYYY");
+    const harareTime = moment().tz("Asia/Dhaka").format("HH:mm:ss");
+    const harareDate = moment().tz("Asia/Dhaka").format("dddd, MMMM Do YYYY");
     const runtimeMilliseconds = Date.now() - botStartTime;
     const runtimeSeconds = Math.floor((runtimeMilliseconds / 1000) % 60);
     const runtimeMinutes = Math.floor((runtimeMilliseconds / (1000 * 60)) % 60);
     const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
     const formattedInfo = `
- 🏮 *SUBZERO MD STATUS* 🏮 
+ 🏮 *HUSSAIN MD STATUS* 🏮 
 
   *Hi👋😄 ${pushname}*
 
@@ -29,9 +29,9 @@ cmd({
  *📆 Date: ${harareDate}*
  *🔋 Uptime: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds*
 
- \`Status\`: *Subzero is online! 🤗🚀*
+ \`Status\`: *Hussain is online! 🤗🚀*
 
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌𝐑 𝐅𝐑𝐀𝐍𝐊. 🔗
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌𝐑 𝐇𝐔𝐒𝐒𝐀𝐈𝐍. 🔗
 `.trim();
 
     if (!ALIVE_IMG || !ALIVE_IMG.startsWith("http")) {
@@ -46,8 +46,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '⁑ ѕυϐzєяο м∂ ⁑ ',
+          newsletterJid: '',
+          newsletterName: '⁑ 🅷︎🆄︎🆂︎🆂︎🅰︎🅸︎🅽︎ 🅱︎🅾︎🆃︎ ⁑ ',
           serverMessageId: 143
         }
       }
@@ -55,7 +55,7 @@ cmd({
 
 // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-theone.mp3' }, // Audio URL
+            audio: { url: '' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
